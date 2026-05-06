@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Elements: Open-Source Battery Electrode Simulation Toolkit using MFEM (BESFEM)",
+    "sponsors": ["National Science Foundation"],
+    "grant_number": "2133466",
+    "role": "Co-PI",
+    "amount_usd": 555077,
+    "start_date": "2023-08-01",
+    "end_date": "2026-07-31",
+    "collaborators": ["Hui-Chia Yu"],
+    "notes": ""
+  },
+  {
+    "title": "Creating Equitable Pathways to Advanced Degrees in Data Science, a Spelman–MSU Partnership",
+    "sponsors": ["Alfred P. Sloan Foundation"],
+    "grant_number": "G-2021-16976",
+    "role": "Co-PI",
+    "amount_usd": 500000,
+    "start_date": "2021-01-01",
+    "end_date": "2024-12-31",
+    "collaborators": ["Andrew Christlieb", "Kathleen Colbry", "Brian O’Shea", "Vincent Melfi"],
+    "notes": "Increase access for Black women pursuing careers in data science."
+  },
+  {
+    "title": "HDR DSC: Increasing Accessibility through Building Alternative Data Science Pathways",
+    "sponsors": ["National Science Foundation"],
+    "grant_number": "2123260",
+    "role": "Co-PI",
+    "amount_usd": 1022778,
+    "start_date": "2021-08-12",
+    "end_date": "2024-08-11",
+    "collaborators": ["Andrew Christlieb", "Kathleen Colbry", "Brian O’Shea", "Vincent Melfi"],
+    "notes": "Collaborative Research"
+  },
+  {
+    "title": "CyberTraining: Pilot – A Professional Development and Certification Program for Cyberinfrastructure Facilitators",
+    "sponsors": ["National Science Foundation"],
+    "grant_number": "OAC-2118193",
+    "role": "Co-PI",
+    "amount_usd": 299993,
+    "start_date": "2021-09-01",
+    "end_date": "2023-08-31",
+    "collaborators": ["Henry Neeman", "Dana Brunson"],
+    "notes": ""
+  },
+  {
+    "title": "CyberTraining: CIP – Professional Skills for CyberAmbassadors",
+    "sponsors": ["National Science Foundation"],
+    "grant_number": "1730137",
+    "role": "PI",
+    "amount_usd": 498330,
+    "start_date": "2017-11-01",
+    "end_date": "2023-10-31",
+    "collaborators": ["Katy Luchini-Colbry"],
+    "notes": ""
+  },
+  {
+    "title": "FIB Based Tomography of Dislocation Structures using Channeling Imaging",
+    "sponsors": ["National Science Foundation"],
+    "grant_number": "",
+    "role": "Consultant",
+    "amount_usd": 319944,
+    "start_date": "2016-07-01",
+    "end_date": "2017-06-30",
+    "collaborators": ["Martin Crimp"],
+    "notes": ""
+  },
+  {
+    "title": "Commercialization of the Automated Quantitative Histological Analysis Tool (QuHAnT)",
+    "sponsors": ["MSU MTRAC for the Bio-Economy"],
+    "grant_number": "",
+    "role": "Co-PI",
+    "amount_usd": 75540,
+    "start_date": "2016-04-07",
+    "end_date": "2017-04-06",
+    "collaborators": ["Tim Zacharewski"],
+    "notes": "Tier 1"
+  },
+  {
+    "title": "Data Storage and Accessibility for the Automated Quantitative Histological Analysis Tool (QuHAnT)",
+    "sponsors": ["MSU MTRAC for the Bio-Economy"],
+    "grant_number": "",
+    "role": "Consultant",
+    "amount_usd": 75540,
+    "start_date": "2015-05-01",
+    "end_date": "2016-04-30",
+    "collaborators": ["Tim Zacharewski"],
+    "notes": "Tier 1"
+  },
+  {
+    "title": "XSEDE Subaward in Support of the Campus Champion Program",
+    "sponsors": ["National Science Foundation"],
+    "grant_number": "",
+    "role": "PI",
+    "amount_usd": 82331,
+    "start_date": "2014-01-01",
+    "end_date": "2014-07-30",
+    "collaborators": [],
+    "notes": ""
+  }
+]

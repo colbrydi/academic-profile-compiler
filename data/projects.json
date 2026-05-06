@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Scalable AI Pipelines for Scientific Imaging",
+    "years": "2022–present",
+    "description": "Design and implementation of GPU-accelerated workflows for large-scale microscopy data.",
+    "keywords": ["AI"]
+  },
+  {
+    "title": "High-Performance Computing Training Materials",
+    "years": "2020–2023",
+    "description": "Development of instructional materials and workshops for researchers using HPC systems.",
+    "keywords": ["Image Analysis"]
+  }
+]

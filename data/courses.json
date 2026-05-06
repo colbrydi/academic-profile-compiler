@@ -1,0 +1,158 @@
+[
+  {
+    "course_code": "CMSE 495",
+    "title": "Experiential Learning in Data Science",
+    "institution": "Michigan State University",
+    "level": "Undergraduate",
+    "role": "Instructor",
+    "terms": [
+      "Spring 2022",
+      "Spring 2023",
+      "Spring 2024",
+      "Spring 2025",
+      "Spring 2026",
+      "Fall 2025"
+    ],
+    "notes": "Hybrid capstone-style course with industry, non-profit, and institutional project sponsors; includes professional skills training in teamwork, leadership, and communication."
+  },
+  {
+    "course_code": "CMSE 499",
+    "title": "Special Topics in Vertically Integrated Projects",
+    "institution": "Michigan State University",
+    "level": "Undergraduate",
+    "role": "Instructor / Co-Creator",
+    "terms": ["Spring 2026"],
+    "notes": "Course created to allow students to earn credit while doing academic work; model planned for expansion campus-wide."
+  },
+  {
+    "course_code": "MTH/CMSE 314",
+    "title": "Matrix Algebra with Numerical Applications",
+    "institution": "Michigan State University",
+    "level": "Undergraduate",
+    "role": "Course Coordinator / Instructor",
+    "terms": [
+      "Fall 2017",
+      "Fall 2018",
+      "Fall 2019",
+      "Fall 2020",
+      "Spring 2021"
+    ],
+    "notes": "Coordinated multiple sections per semester; developed and maintained syllabus, assignments, and Jupyter-based course materials."
+  },
+  {
+    "course_code": "CMSE 401",
+    "title": "Methods for Parallel Programming",
+    "institution": "Michigan State University",
+    "level": "Undergraduate",
+    "role": "Instructor",
+    "terms": ["Spring 2019", "Spring 2021"],
+    "notes": "Course focused on shared-memory, accelerator, and distributed parallel programming; extensive use of HPC systems."
+  },
+  {
+    "course_code": "CMSE 802",
+    "title": "Methods in Computational Modeling",
+    "institution": "Michigan State University",
+    "level": "Graduate",
+    "role": "Instructor",
+    "terms": ["Fall 2019", "Spring 2020", "Fall 2020"],
+    "notes": "Redesigned course to emphasize project-based work tied to students’ own graduate research; focus on robust scientific software practices."
+  },
+  {
+    "course_code": "CMSE 890",
+    "title": "Computational Modeling Using the MFEM Library",
+    "institution": "Michigan State University",
+    "level": "Graduate",
+    "role": "Co-Creator / Instructor",
+    "terms": ["Fall 2025"],
+    "notes": "Graduate special topics course using the MFEM library; students define learning goals collaboratively with instructors."
+  },
+  {
+    "course_code": "CMSE 890",
+    "title": "Generative AI",
+    "institution": "Michigan State University",
+    "level": "Graduate",
+    "role": "Instructor",
+    "terms": ["Fall 2023"],
+    "notes": "Special topics course focused on generative AI methods and applications."
+  },
+  {
+    "course_code": "CMSE 890",
+    "title": "Communications, Teamwork, Ethics, and Leadership for Multidisciplinary Research Teams",
+    "institution": "Michigan State University",
+    "level": "Graduate",
+    "role": "Co-Creator / Instructor",
+    "terms": [
+      "Spring 2019",
+      "Spring 2020",
+      "Fall 2021",
+      "Fall 2022",
+      "Fall 2023",
+      "Fall 2024",
+      "Fall 2025"
+    ],
+    "notes": "Professional skills course integrating NSF CyberAmbassador materials, Responsible Conduct of Research, and NIH Entering Mentoring training."
+  },
+  {
+    "course_code": "UGS 101",
+    "title": "Learning in the Digital Age: Academic, Personal, and Professional Considerations",
+    "institution": "Michigan State University",
+    "level": "Undergraduate",
+    "role": "Instructor",
+    "terms": ["Fall 2020", "Fall 2021", "Fall 2022", "Fall 2023"],
+    "notes": "Fully online course focused on professional skills and digital tools for new students."
+  },
+  {
+    "course_code": "PHY 905",
+    "title": "Designing and Building Applications for Extreme Scale Systems",
+    "institution": "Michigan State University",
+    "level": "Graduate",
+    "role": "Instructor",
+    "terms": ["Spring 2016"],
+    "notes": "Multi-university course led by University of Illinois; taught using a flipped-classroom model."
+  },
+  {
+    "course_code": "UGS 200H",
+    "title": "Study of Scientific Measurement Using Digital Images and Video",
+    "institution": "Michigan State University",
+    "level": "Undergraduate",
+    "role": "Instructor",
+    "terms": ["Fall 2012", "Spring 2013"],
+    "notes": "Engineering Honors research seminar focused on image and video analysis in cross-disciplinary science."
+  },
+  {
+    "course_code": "CSE 450",
+    "title": "Translation of Programming Languages (Compilers)",
+    "institution": "Michigan State University",
+    "level": "Undergraduate",
+    "role": "Instructor / Laboratory Instructor",
+    "terms": ["Spring 2003", "Spring 2012"],
+    "notes": "Senior-level technical elective; included x86 assembly and multi-core optimization concepts."
+  },
+  {
+    "course_code": "ENG 695",
+    "title": "Engineering Teamwork Seminar",
+    "institution": "The Ohio State University",
+    "level": "Graduate",
+    "role": "Co-Instructor",
+    "terms": ["Spring 2005–2009", "Spring 2011"],
+    "notes": "Weekend seminar on communication and interpersonal skills for engineers; sponsored by Tau Beta Pi."
+  },
+  {
+    "course_code": "PSY 992",
+    "title": "Programming and Mathematical Concepts in MATLAB for Research Scientists",
+    "institution": "Michigan State University",
+    "level": "Graduate",
+    "role": "Instructor",
+    "terms": ["Fall 2006"],
+    "notes": "Course for graduate students in statistics, psychology, zoology, telecommunications, and computer science."
+  },
+  {
+    "course_code": "EECS 373",
+    "title": "Embedded System Design",
+    "institution": "University of Michigan",
+    "level": "Undergraduate",
+    "role": "Laboratory Instructor",
+    "terms": ["1999–2000"],
+    "notes": "Assisted students with FPGA- and microcontroller-based embedded system design."
+  }
+]

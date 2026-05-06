@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Curriculum Specialist (Continuing Status)",
+    "unit": "Department of Computational Mathematics, Science and Engineering",
+    "institution": "Michigan State University",
+    "start_year": 2015,
+    "end_year": "present",
+    "role_type": "Academic Leadership",
+    "notes": "Led curriculum development for a new department; designed and implemented new undergraduate and graduate CMSE courses."
+  },
+  {
+    "title": "Director of User Support",
+    "unit": "Institute for Cyber-Enabled Research (ICER)",
+    "institution": "Michigan State University",
+    "start_year": 2022,
+    "end_year": 2025,
+    "role_type": "Administrative Leadership",
+    "notes": "Supervised research consultants; restarted and managed the ICER intern program; coordinated campus-wide research computing user support strategy."
+  },
+  {
+    "title": "Director",
+    "unit": "High Performance Computing Center",
+    "institution": "Michigan State University",
+    "start_year": 2014,
+    "end_year": 2015,
+    "role_type": "Administrative Leadership",
+    "notes": "Managed HPC staff and student interns; oversaw ~1M annual budget; maintained large-scale research computing infrastructure; supported over 1,000 active users."
+  },
+  {
+    "title": "Research Specialist",
+    "unit": "Institute for Cyber-Enabled Research (ICER)",
+    "institution": "Michigan State University",
+    "start_year": 2009,
+    "end_year": 2015,
+    "role_type": "Research Support",
+    "notes": "Developed and managed student intern program; provided advanced research computing consulting; participated as NSF XSEDE Campus Champion support staff."
+  },
+  {
+    "title": "Assistant Research Professor",
+    "unit": "CUbiC Center for Cognitive Ubiquitous Computing",
+    "institution": "Arizona State University",
+    "start_year": 2007,
+    "end_year": 2008,
+    "role_type": "Academic Faculty",
+    "notes": "Conducted research in assistive and rehabilitative technologies; coordinated funding proposals; mentored graduate and undergraduate researchers."
+  },
+  {
+    "title": "Visiting Assistant Professor",
+    "unit": "Cognitive Science",
+    "institution": "Michigan State University",
+    "start_year": 2006,
+    "end_year": 2007,
+    "role_type": "Academic Faculty",
+    "notes": "Developed medical image feature fusion techniques and explored machine vision applications for biological research."
+  },
+  {
+    "title": "Adjunct Faculty",
+    "unit": "Electrical and Computer Engineering",
+    "institution": "Michigan State University",
+    "start_year": 2010,
+    "end_year": 2014,
+    "role_type": "Academic Faculty",
+    "notes": "Served as Ph.D. committee member; supported GPU porting of electromagnetic simulation code."
+  },
+  {
+    "title": "Adjunct Faculty",
+    "unit": "Computer Science and Engineering",
+    "institution": "Michigan State University",
+    "start_year": 2006,
+    "end_year": 2007,
+    "role_type": "Academic Faculty",
+    "notes": "Worked with the Pattern Recognition and Image Processing Lab on 3D face recognition algorithms."
+  },
+  {
+    "title": "NSF IGERT Research Associate",
+    "unit": "Cognitive Science",
+    "institution": "Michigan State University",
+    "start_year": 2003,
+    "end_year": 2006,
+    "role_type": "Research",
+    "notes": "Participated in interdisciplinary cognitive science research focused on human navigation."
+  },
+  {
+    "title": "Graduate Research Assistant",
+    "unit": "Computer Science and Engineering",
+    "institution": "University of Michigan",
+    "start_year": 2001,
+    "end_year": 2003,
+    "role_type": "Research",
+    "notes": "Worked on the Nursebot project; developed Bayesian models for plan recognition and execution monitoring."
+  },
+  {
+    "title": "Graduate Research Fellow",
+    "unit": "Computer Science and Engineering",
+    "institution": "University of Michigan",
+    "start_year": 2000,
+    "end_year": 2000,
+    "role_type": "Research",
+    "notes": "Developed simulators and distributed vision algorithms for robotic manipulators."
+  },
+  {
+    "title": "Professional Research Consultant",
+    "unit": "Private Research Contractor",
+    "institution": "Various",
+    "start_year": 2015,
+    "end_year": 2016,
+    "role_type": "Consulting",
+    "notes": "Consulted on NSF and MTRAC-funded projects related to image processing systems, cloud-based analytics, and software frameworks."
+  }
+]
