@@ -1,0 +1,40 @@
+\documentclass[11pt]{article}
+
+% Basic formatting
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+% Bibliography
+\usepackage[numbers]{natbib}
+\bibliographystyle{plain}
+
+% Optional: move styling out later
+\usepackage{cvstyle}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE Your Name}\\[0.5em]
+  Department, Institution \\
+  \href{mailto:you@university.edu}{you@university.edu}
+\end{center}
+
+\vspace{1em}
+
+\section*{Overview}
+
+This is a placeholder overview section.
+Eventually this could be generated from a Markdown file.
+
+\section*{Publications}
+
+\bibliography{publications}
+
+\section*{Projects}
+
+This section is intentionally empty for now.
+Eventually this will be populated from \texttt{projects.json}.
+
+\end{document}
