@@ -7,77 +7,24 @@
 \usepackage{enumitem}
 \usepackage{longtable}
 
-% LUA json parsing code
-\usepackage{luacode}
-\begin{luacode*}
-dofile("lua/json_render.lua")
-\end{luacode*}
-\newcommand{\luaimportjson}[1]{%
-  \directlua{render_json("#1")}%
-}
-\newcommand{\luaimportjsonkeyword}[2]{%
-  \directlua{render_json("#1", "#2")}%
-}
-% Abstract interface (future-proof)
-\let\importjson\luaimportjson
-\let\importjsonkeyword\luaimportjsonkeyword
-
-
-\begin{luacode*}
-dofile("lua/json_render_grants.lua")
-\end{luacode*}
-
-\newcommand{\luaimportgrants}[1]{%
-  \directlua{render_grants("#1")}%
-}
-
-\begin{luacode*}
-dofile("lua/json_render_courses.lua")
-\end{luacode*}
-
-\newcommand{\luaimportcourses}[1]{%
-  \directlua{render_courses_table("#1")}%
-}
-
-\begin{luacode*}
-dofile("lua/json_render_courses_table.lua")
-\end{luacode*}
-
-\newcommand{\luaimportcoursestable}[1]{%
-  \directlua{render_courses_table("#1")}%
-}
-
-\begin{luacode*}
-dofile("lua/json_render_roles.lua")
-\end{luacode*}
-
-\newcommand{\luaimportroles}[1]{%
-  \directlua{render_roles("#1")}%
-}
-
-\begin{luacode*}
-dofile("lua/json_render_roles_table.lua")
-\end{luacode*}
-
-\newcommand{\luaimportrolestable}[1]{%
-  \directlua{render_roles_table("#1")}%
-}
-
+\input{lua/luarender}
 
 % Bibliography (biblatex)
 \usepackage[
   backend=biber,
   style=numeric,
   defernumbers=true,
-  sorting=ydnt
+  sorting=ydnt  % year (desc), name, title
 ]{biblatex}
-\addbibresource{scholarly_outputs.bib}
+
+
+\addbibresource{data/publications.bib}
+\addbibresource{data/scholarly_outputs.bib}
 
 % Optional: move styling out later
 \usepackage{cvstyle}
 
 \begin{document}
-\nocite{*}
 
 \begin{center}
   {\LARGE Dirk Colbry}\\[0.5em]
@@ -85,38 +32,66 @@ dofile("lua/json_render_roles_table.lua")
   \href{mailto:colbrydi@msu.edu}{colbrydi@msu.edu}
 \end{center}
 
-\vspace{1em}
-
-\section*{Overview}
-\input{sections/overview}
-
-\section*{Publications}
-\begin{refsection}
-\nocite{*}
-\printbibliography[heading=none,keyword=peer-reviewed ]
-\end{refsection}
-
-
-\section*{Mentored Student Research Projects}
-\begin{refsection}
-\nocite{*}
-\printbibliography[heading=none,keyword=student-project ]
-\end{refsection}
-
-\section*{Projects}
-\importjson{./data/projects.json}
-
-%\section*{AI Projects}
-%\importjsonkeyword{./data/projects.json}{AI}
-
-\section*{Grants and Funding}
-\luaimportgrants{./data/grants.json}
-
-
-\section*{Teaching Experience}
-\luaimportcoursestable{./data/courses.json}
+\input{sections/education}
 
 \section*{Research and Administrative Experience}
-\luaimportrolestable{./data/roles.json}
+\importroles{data/roles.json}
+
+\section*{Engineering Experience}
+\importroles{data/engineering.json}
+
+
+\section*{Graduate Thesis and Dissertation Committees}
+\importcommittees{data/graduate_committees.json}
+
+\section*{Teaching Experience}
+\importcourses{data/courses.json}
+
+
+
+\section*{Editorial, Leadership, and Professional Service}
+\importroles{data/service_editorial_leadership.json}
+
+\section*{Institutional and Outreach Service}
+\importroles{data/service_institutional_outreach.json}
+
+\section*{Grants and Funding}
+\importgrants{./data/grants.json}
+
+\section*{Honors and Awards}
+\importhonors{./data/honors_awards.json}
+
+% SELECTED PRESENTATIONS AND SPECIAL PROJECTS
+
+\section*{Selected Presentations and Special Projects}
+%\importselectedpresentations{data/presentations.json}
+\importallpresentations{data/presentations.json}
+
+
+\begin{refsection}
+\nocite{*}
+
+\subsection*{Book Chapters}
+\printbibliography[type=incollection, notkeyword=student-project, heading=none]
+
+\subsection*{Journal Articles}
+\printbibliography[type=article, notkeyword=student-project, heading=none]
+
+\subsection*{Conference Proceedings}
+\printbibliography[type=inproceedings, notkeyword=student-project, heading=none]
+
+\subsection*{Other Scholarly Outputs}
+\printbibliography[
+nottype={article,inproceedings,incollection},
+  notkeyword=student-project,
+  heading=none
+]
+
+\subsection*{Mentored Student Research Projects}
+\printbibliography[heading=none,keyword=student-project ]
+
+
+
+\end{refsection}
 
 \end{document}

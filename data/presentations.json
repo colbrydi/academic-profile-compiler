@@ -1,0 +1,189 @@
+[
+  {
+    "title": "Introduction to HPCC",
+    "activity_type": "Invited Talk",
+    "venue": "CMSE 822",
+    "location": "Michigan State University",
+    "date": "2024-01-13",
+    "invited": true,
+    "project": "HPCC Outreach",
+    "selected": false,
+    "notes": ""
+  },
+  {
+    "title": "Curriculum Development Techniques",
+    "activity_type": "Invited Talk",
+    "venue": "EGR 811",
+    "location": "Michigan State University",
+    "date": "2025-01-31",
+    "invited": true,
+    "project": "Curriculum Development",
+    "selected": false,
+    "notes": ""
+  },
+  {
+    "title": "Third Annual Data Science Capstone Showcase",
+    "activity_type": "Hosted Event",
+    "venue": "Data Science Capstone Program",
+    "location": "Michigan State University",
+    "date": "2024-05-14",
+    "invited": false,
+    "project": "Data Science Capstone",
+    "selected": false,
+    "notes": "Hosted and organized capstone showcase event."
+  },
+  {
+    "title": "Autobiography Talk with Focus on Generative AI",
+    "activity_type": "Invited Talk",
+    "venue": "ICER ACERs Students",
+    "location": "Michigan State University",
+    "date": "2024-05-22",
+    "invited": true,
+    "project": "Generative AI Outreach",
+    "selected": false,
+    "notes": ""
+  },
+  {
+    "title": "Entering Mentoring Workshop Facilitation",
+    "activity_type": "Workshop Facilitation",
+    "venue": "Graduate School",
+    "location": "Michigan State University",
+    "date": "2024-08-21",
+    "invited": false,
+    "project": "Graduate Mentoring",
+    "selected": false,
+    "notes": ""
+  },
+  {
+    "title": "Introduction to ICER",
+    "activity_type": "Invited Talk",
+    "venue": "Incoming MSDS Students",
+    "location": "Michigan State University",
+    "date": "2024-08-22",
+    "invited": true,
+    "project": "ICER Outreach",
+    "selected": false,
+    "notes": ""
+  },
+  {
+    "title": "ICER Traveling Roadshow",
+    "activity_type": "Invited Talk",
+    "venue": "AI Club",
+    "location": "Michigan State University",
+    "date": "2024-09-24",
+    "invited": true,
+    "project": "ICER Traveling Roadshow",
+    "selected": false,
+    "notes": ""
+  },
+  {
+    "title": "Professional Skills Workshop (Fairplay Curriculum)",
+    "activity_type": "Workshop Facilitation",
+    "venue": "Graduate Professional Skills Workshop",
+    "location": "Michigan State University",
+    "date": "2024-12-17",
+    "invited": false,
+    "project": "Professional Skills Training",
+    "selected": false,
+    "notes": ""
+  },
+  {
+    "title": "SEE-Insight Research Presentation",
+    "activity_type": "Invited Talk",
+    "venue": "Image Analysis Group, IQ Building",
+    "location": "Michigan State University",
+    "date": "2023-12-07",
+    "invited": true,
+    "project": "SEE-Insight",
+    "selected": false,
+    "notes": ""
+  },
+  {
+    "title": "Lightning Talk and Poster on CyberAmbassador and CCIFTD",
+    "activity_type": "Conference Presentation",
+    "venue": "NSF CyberTraining Meeting",
+    "location": "",
+    "date": "2023",
+    "invited": false,
+    "project": "CyberAmbassador",
+    "selected": false,
+    "notes": ""
+  },
+  {
+    "title": "Poster on BESFEM Program",
+    "activity_type": "Poster Presentation",
+    "venue": "NSF CSSI Meeting",
+    "location": "",
+    "date": "2023",
+    "invited": false,
+    "project": "BESFEM",
+    "selected": false,
+    "notes": "Poster co-presented with Hui-Chi."
+  },
+  {
+    "title": "Research Facilitator Virtual Residency Workshop",
+    "activity_type": "Workshop Organization and Presentation",
+    "venue": "Research Facilitator Virtual Residency",
+    "location": "",
+    "date": "2023",
+    "invited": false,
+    "project": "Research Facilitation",
+    "selected": false,
+    "notes": "Helped organize, attended, and gave three presentations."
+  },
+  {
+    "title": "Integrating Community Engagement in a Data Science Capstone Course",
+    "activity_type": "Invited Talk",
+    "venue": "MSU Summer Intensive on Community Engagement",
+    "location": "Michigan State University",
+    "date": "2023-06-09",
+    "invited": true,
+    "project": "Data Science Capstone",
+    "selected": false,
+    "notes": ""
+  },
+  {
+    "title": "Speeding up Machine Learning using GPUs and HPC",
+    "activity_type": "Invited Talk",
+    "venue": "MSU AI Club",
+    "location": "Michigan State University",
+    "date": "2023-02-06",
+    "invited": true,
+    "project": "HPC and AI",
+    "selected": false,
+    "notes": ""
+  },
+  {
+    "title": "VR and Computational Mathematics, Science, and Engineering",
+    "activity_type": "Invited Talk",
+    "venue": "MSU VR/AR Seminar Group",
+    "location": "Michigan State University",
+    "date": "2019-02-26",
+    "invited": true,
+    "project": "VR and CMSE",
+    "selected": false,
+    "notes": ""
+  },
+  {
+    "title": "Understanding Research Technology Support and Where it Fails",
+    "activity_type": "Invited Talk",
+    "venue": "IT Research Support Group",
+    "location": "Michigan State University",
+    "date": "2019-03-25",
+    "invited": true,
+    "project": "Research Technology Support",
+    "selected": false,
+    "notes": ""
+  },
+  {
+    "title": "Automating Scientific Image Analysis Workflows",
+    "activity_type": "Invited Talk",
+    "venue": "CMSE 890",
+    "location": "Michigan State University",
+    "date": "2019-04-23",
+    "invited": true,
+    "project": "Image Analysis",
+    "selected": false,
+    "notes": ""
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Co-Editor, Education Department",
+    "unit": "Computing in Science & Engineering (CiSE)",
+    "institution": "IEEE",
+    "start_year": 2021,
+    "end_year": "present",
+    "role_type": "Editorial Service",
+    "notes": "Built editorial networks and reviewed and edited submissions for publication. Worked with co-editor to strategically plan the direction of the Education Department."
+  },
+  {
+    "title": "Chair",
+    "unit": "SIG HPC Education (SigHPCEdu) Virtual Chapter",
+    "institution": "ACM / IEEE",
+    "start_year": 2019,
+    "end_year": "present",
+    "role_type": "Professional Leadership",
+    "notes": "Coordinated and organized all aspects of the virtual chapter focused on education in computation."
+  },
+  {
+    "title": "Assistant Chair",
+    "unit": "SIG HPC Education (SigHPCEdu) Virtual Chapter",
+    "institution": "ACM / IEEE",
+    "start_year": 2017,
+    "end_year": 2019,
+    "role_type": "Professional Leadership",
+    "notes": "Supported leadership and organization of chapter activities related to computational education."
+  },
+  {
+    "title": "MSU Hub Fellow",
+    "unit": "Hub Fellowship Program",
+    "institution": "Michigan State University",
+    "start_year": 2018,
+    "end_year": 2019,
+    "role_type": "Professional Fellowship",
+    "notes": "Worked with the Jupyter Core Development Team to improve accessibility of Jupyter Notebook and JupyterLab. Coordinated with MSU Central IT on development of a campus-wide JupyterHub. Researched use of Jupyter as an interface to compiled languages (C, C++, Fortran, CUDA) and evaluated effectiveness of Jupyter in online vs. in-person learning."
+  },
+  {
+    "title": "STEM Gateway Fellow",
+    "unit": "STEM Gateway Program",
+    "institution": "Michigan State University",
+    "start_year": 2016,
+    "end_year": 2018,
+    "role_type": "Professional Fellowship",
+    "notes": "Collaborated with learning leaders across the College of Natural Science to integrate introductory STEM curricula. Developed and evaluated undergraduate instructional materials using three-dimensional learning approaches."
+  },
+  {
+    "title": "Campus Champion",
+    "unit": "XSEDE / TeraGrid",
+    "institution": "National Science Foundation",
+    "start_year": 2010,
+    "end_year": "present",
+    "role_type": "National Service",
+    "notes": "Served as Campus Champion supporting national cyberinfrastructure initiatives. Roles included Campus Champion Fellow (2012–2013), leadership team member (2012–2014), support staff (2012–2014), chair of Birds of a Feather programs (XSEDE 2014), co-organizer of training and Small Centers sessions (TeraGrid 2011, XSEDE 2013), and invited panelist (TeraGrid 2011; XSEDE 2012)."
+  }
+]

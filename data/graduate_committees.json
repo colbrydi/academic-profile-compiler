@@ -1,0 +1,132 @@
+[
+  {
+    "student": "Ryan Jayne",
+    "program": "",
+    "department": "",
+    "title": "Spatial and Temporal Modeling of Biophysical and Socioeconomic Mechanisms in Agricultural Systems with Bayesian and Radar Remote Sensing",
+    "term": "Spring",
+    "year": 2025,
+    "selected": true,
+    "notes": ""
+  },
+  {
+    "student": "Meng Cai",
+    "program": "",
+    "department": "School of Planning, Design and Construction",
+    "title": "A Text-Mining Approach to Understanding Smart Transformation for Sustainability",
+    "term": "Spring",
+    "year": 2024,
+    "selected": true,
+    "notes": ""
+  },
+  {
+    "student": "Nathan Haut",
+    "program": "",
+    "department": "Department of Computer Science",
+    "title": "Active Learning in Genetic Programming",
+    "term": "Fall",
+    "year": 2023,
+    "selected": true,
+    "notes": ""
+  },
+  {
+    "student": "Junjie Han",
+    "program": "",
+    "department": "Departments of Animal Science and Computational Mathematics, Science, and Engineering",
+    "title": "Development and Assessment of Predictive Models for Improved Swine Farming",
+    "term": "Summer",
+    "year": 2022,
+    "selected": true,
+    "notes": ""
+  },
+  {
+    "student": "Sadiyah Sabah Chowdhury",
+    "program": "",
+    "department": "Department of Mechanical Engineering",
+    "title": "Three-Dimensional Multi-Physics Modeling Methodology to Study Engine Cylinder-Kit Assembly Tribology and Design Considerations",
+    "term": "Fall",
+    "year": 2021,
+    "selected": true,
+    "notes": ""
+  },
+  {
+    "student": "Kyungmin (Alyssa) Kim",
+    "program": "",
+    "department": "Department of Plant, Soil, and Microbial Sciences",
+    "title": "Change of Soil Micro-Environments During Plant Decomposition and its Effect on Carbon and Nitrogen Dynamics",
+    "term": "Fall",
+    "year": 2021,
+    "selected": true,
+    "notes": ""
+  },
+  {
+    "student": "Mohammad Afibuzzaman",
+    "program": "",
+    "department": "Department of Computer Science and Engineering",
+    "title": "Optimization of Large Scale Iterative Eigensolvers",
+    "term": "Summer",
+    "year": 2021,
+    "selected": true,
+    "notes": ""
+  },
+  {
+    "student": "Hamzeh Ghasemzadeh",
+    "program": "",
+    "department": "Departments of Communicative Sciences and Disorders and Computational Mathematics, Science, and Engineering",
+    "title": "Quantitative Methods for Calibrated Spatial Measurements of Laryngeal Phonatory Mechanisms",
+    "term": "Fall",
+    "year": 2020,
+    "selected": true,
+    "notes": ""
+  },
+  {
+    "student": "Mark Berardi",
+    "program": "",
+    "department": "Department of Communicative Sciences and Disorders",
+    "title": "Validation and Application of Experimental Framework for the Study of Vocal Fatigue",
+    "term": "Spring",
+    "year": 2020,
+    "selected": true,
+    "notes": ""
+  },
+  {
+    "student": "Gabrielle Murashova",
+    "program": "",
+    "department": "Department of Chemistry and Computational Mathematics, Science, and Engineering",
+    "title": "Integration of Computational Methods and Nonlinear Multiphoton Multimodal Microscopy Imaging for the Analysis of Unstained Human and Animal Tissues",
+    "term": "Fall",
+    "year": 2019,
+    "selected": true,
+    "notes": ""
+  },
+  {
+    "student": "Michelle Quigley",
+    "program": "",
+    "department": "Department of Crop and Soil Sciences",
+    "title": "Contribution of Soil Pores to the Processing and Protection of Soil Carbon at Micro-Scale",
+    "term": "Summer",
+    "year": 2018,
+    "selected": true,
+    "notes": ""
+  },
+  {
+    "student": "Chris Sullivan",
+    "program": "Dual Degree",
+    "department": "Departments of Physics and Astronomy and Computational Mathematics, Science, and Engineering",
+    "title": "Constraining Nuclear Weak Interactions in Astrophysics and New Many-Core Algorithms for Neuroevolution",
+    "term": "Spring",
+    "year": 2018,
+    "selected": true,
+    "notes": ""
+  },
+  {
+    "student": "Byron Zambrano",
+    "program": "",
+    "department": "Department of Mechanical Engineering",
+    "title": "The Role of Hemodynamics on Intraluminal Thrombus Accumulation and Abdominal Aortic Aneurysm Expansion: A Longitudinal Patient-Specific Study",
+    "term": "Fall",
+    "year": 2017,
+    "selected": true,
+    "notes": ""
+  }
+]

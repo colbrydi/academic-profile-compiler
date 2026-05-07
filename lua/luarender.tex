@@ -1,0 +1,77 @@
+% ============================
+% Lua render pipeline (central)
+% ============================
+
+\usepackage{luacode}
+
+% ---- Load all Lua renderers once ----
+\begin{luacode*}
+dofile("lua/json_render.lua")
+dofile("lua/json_render_grants.lua")
+dofile("lua/json_render_courses_table.lua")
+dofile("lua/json_render_roles_table.lua")
+dofile("lua/json_render_honors.lua")
+dofile("lua/json_render_presentations.lua")
+dofile("lua/json_render_committees.lua")
+\end{luacode*}
+
+
+% ============================
+% Low-level Lua bindings
+% (Do not use directly in document body)
+% ============================
+
+\newcommand{\luaimportjson}[1]{%
+  \directlua{render_json("#1")}%
+}
+
+\newcommand{\luaimportjsonkeyword}[2]{%
+  \directlua{render_json("#1", "#2")}%
+}
+
+\newcommand{\luaimportgrants}[1]{%
+  \directlua{render_grants("#1")}%
+}
+
+\newcommand{\luaimportcourses}[1]{%
+  \directlua{render_courses_table("#1")}%
+}
+
+\newcommand{\luaimportroles}[1]{%
+  \directlua{render_roles_table("#1")}%
+}
+
+\newcommand{\luaimporthonors}[1]{%
+  \leavevmode%
+  \directlua{render_honors("#1")}%
+}
+
+\newcommand{\luaimportselectedpresentations}[1]{%
+  \leavevmode\directlua{render_selected_presentations("#1")}%
+}
+
+\newcommand{\luaimportallpresentations}[1]{%
+  \leavevmode\directlua{render_all_presentations("#1")}%
+}
+
+
+\newcommand{\luaimportcommittees}[1]{%
+  \leavevmode\directlua{render_graduate_committees("#1")}%
+}
+
+
+
+% ============================
+% High-level abstract interface
+% (Use THESE in the document)
+% ============================
+
+\let\importjson\luaimportjson
+\let\importjsonkeyword\luaimportjsonkeyword
+\let\importgrants\luaimportgrants
+\let\importcourses\luaimportcourses
+\let\importroles\luaimportroles
+\let\importhonors\luaimporthonors
+\let\importselectedpresentations\luaimportselectedpresentations
+\let\importallpresentations\luaimportallpresentations
+\let\importcommittees\luaimportcommittees

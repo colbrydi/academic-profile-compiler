@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Algorithm Developer",
+    "unit": "Pixel-Velocity Inc.",
+    "institution": "Ann Arbor, Michigan",
+    "start_year": 2015,
+    "end_year": 2015,
+    "role_type": "Industry Engineering",
+    "notes": "Conducted research and developed algorithms to detect hydrocarbon gas using multispectral imaging. Designed and implemented testing software for a third-generation video tracking algorithm for high-end security systems. Worked with a team to productize algorithms using Microsoft C#, C++, and OpenCV. Developed a Windows-based algorithm testing framework using Python, Cygwin, and Bash. Designed a battery-operated, portable surveillance system for research, testing, and demonstrations."
+  },
+  {
+    "title": "Professional Consultant",
+    "unit": "Cooper Tire & Rubber Company",
+    "institution": "Findlay, Ohio",
+    "start_year": 2006,
+    "end_year": 2009,
+    "role_type": "Industry Consulting",
+    "notes": "Consulted on computer vision and pattern recognition methods for tire engineering. Developed and delivered a four-hour professional training course on using MATLAB as a tool for engineering research."
+  },
+  {
+    "title": "Robotics Engineer",
+    "unit": "FANUC Robotics North America",
+    "institution": "Rochester Hills, Michigan",
+    "start_year": 1997,
+    "end_year": 1999,
+    "role_type": "Industry Engineering",
+    "notes": "Supervised installation of 6-7 axis robotic systems, including assembly, programming, system design, and debugging. Served as an on-site systems specialist for unique system applications, with extensive international travel."
+  },
+  {
+    "title": "Liaison Engineering Co-Op",
+    "unit": "Delta Air Lines",
+    "institution": "Atlanta, Georgia",
+    "start_year": 1993,
+    "end_year": 1996,
+    "role_type": "Industry Engineering",
+    "notes": "Authored hundreds of aerospace and mechanical engineering reports and analyses for airline structural repairs. Integrated specially designed repairs into maintenance manuals. Developed and maintained a multi-user interface and database for tracking engineering requests."
+  }
+]
