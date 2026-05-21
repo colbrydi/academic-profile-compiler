@@ -16,6 +16,9 @@ dofile("lua/json_render_committees.lua")
 \end{luacode*}
 
 
+
+
+
 % ============================
 % Low-level Lua bindings
 % (Do not use directly in document body)
@@ -41,6 +44,12 @@ dofile("lua/json_render_committees.lua")
   \directlua{render_roles_table("#1")}%
 }
 
+\newcommand{\luaimportrolesfiltered}[2]{%
+  \leavevmode\directlua{render_roles_table_filtered("#1", "#2")}%
+}
+
+
+
 \newcommand{\luaimporthonors}[1]{%
   \leavevmode%
   \directlua{render_honors("#1")}%
@@ -54,9 +63,12 @@ dofile("lua/json_render_committees.lua")
   \leavevmode\directlua{render_all_presentations("#1")}%
 }
 
-
 \newcommand{\luaimportcommittees}[1]{%
   \leavevmode\directlua{render_graduate_committees("#1")}%
+}
+
+\newcommand{\luaimportgroupedpresentations}[1]{%
+  \leavevmode\directlua{render_selected_presentations_grouped("#1")}%
 }
 
 
@@ -71,7 +83,9 @@ dofile("lua/json_render_committees.lua")
 \let\importgrants\luaimportgrants
 \let\importcourses\luaimportcourses
 \let\importroles\luaimportroles
+\let\importrolesfiltered\luaimportrolesfiltered
 \let\importhonors\luaimporthonors
 \let\importselectedpresentations\luaimportselectedpresentations
 \let\importallpresentations\luaimportallpresentations
 \let\importcommittees\luaimportcommittees
+\let\importgroupedpresentations\luaimportgroupedpresentations

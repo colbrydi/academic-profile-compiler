@@ -1,4 +1,16 @@
 [
+ {
+    "title": "NatSci Undergraduate Teaching Award",
+    "organization": "College of Natrual Science",
+    "year": 2026,
+    "notes": ""
+  },
+ {
+    "title": "Excellence in Education",
+    "organization": "Department of Computational Mathematics Science and Engineering",
+    "year": 2025,
+    "notes": ""
+  },
   {
     "title": "Hall of Fame",
     "organization": "American Society for Engineering Education",
@@ -6,9 +18,9 @@
     "notes": ""
   },
   {
-    "title": "Natural Science Teaching Prize",
-    "organization": "Michigan State University",
-    "year": 2021,
+    "title": "NatSci Faculty Teaching Prize",
+    "organization": "College of Natrual Science",
+    "year": 2022,
     "notes": ""
   },
   {
@@ -68,19 +80,19 @@
   {
     "title": "IJCAI Student Merit Scholarship",
     "organization": "International Joint Conference on Artificial Intelligence",
-    "year": "",
+    "year": "2002",
     "notes": ""
   },
   {
     "title": "University of Michigan Summer Research Fellowship",
     "organization": "University of Michigan",
-    "year": "",
+    "year": "2000",
     "notes": ""
   },
   {
     "title": "Member",
     "organization": "Tau Beta Pi Engineering Honor Society",
-    "year": "",
-    "notes": ""
+    "year": "2006",
+    "notes": "present"
   }
 ]

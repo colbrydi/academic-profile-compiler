@@ -14,25 +14,34 @@
   backend=biber,
   style=numeric,
   defernumbers=true,
-  sorting=ydnt  % year (desc), name, title
+  sorting=ydnt,  % year (desc), name, title
+  maxnames=99
 ]{biblatex}
 
 
+\defbibfilter{booksandchapters}{
+  type=incollection or type=thesis
+}
+
+\addbibresource{data/graduate_students.bib}
 \addbibresource{data/publications.bib}
 \addbibresource{data/scholarly_outputs.bib}
+
+% avoid clutter
+\ExecuteBibliographyOptions{
+  url=false,
+  doi=false,
+  isbn=false,
+  eprint=false
+}
 
 % Optional: move styling out later
 \usepackage{cvstyle}
 
 \begin{document}
 
-\begin{center}
-  {\LARGE Dirk Colbry}\\[0.5em]
-  Computational Mathematics, Science and Engineering, Michigan State University \\
-  \href{mailto:colbrydi@msu.edu}{colbrydi@msu.edu}
-\end{center}
 
-\input{sections/education}
+\input{data/header}
 
 \section*{Research and Administrative Experience}
 \importroles{data/roles.json}
@@ -40,20 +49,16 @@
 \section*{Engineering Experience}
 \importroles{data/engineering.json}
 
-
-\section*{Graduate Thesis and Dissertation Committees}
-\importcommittees{data/graduate_committees.json}
+%\importcommittees{data/graduate_committees.json}
 
 \section*{Teaching Experience}
 \importcourses{data/courses.json}
 
+\section*{Professional Service}
+\importrolesfiltered{data/service.json}{external}
 
-
-\section*{Editorial, Leadership, and Professional Service}
-\importroles{data/service_editorial_leadership.json}
-
-\section*{Institutional and Outreach Service}
-\importroles{data/service_institutional_outreach.json}
+\section*{Institutional Service}
+\importrolesfiltered{data/service.json}{internal}
 
 \section*{Grants and Funding}
 \importgrants{./data/grants.json}
@@ -63,34 +68,38 @@
 
 % SELECTED PRESENTATIONS AND SPECIAL PROJECTS
 
-\section*{Selected Presentations and Special Projects}
-%\importselectedpresentations{data/presentations.json}
-\importallpresentations{data/presentations.json}
 
+\section*{Selected Talks}
+\importgroupedpresentations{data/presentations.json}
 
 \begin{refsection}
 \nocite{*}
-
-\subsection*{Book Chapters}
-\printbibliography[type=incollection, notkeyword=student-project, heading=none]
-
-\subsection*{Journal Articles}
-\printbibliography[type=article, notkeyword=student-project, heading=none]
-
-\subsection*{Conference Proceedings}
-\printbibliography[type=inproceedings, notkeyword=student-project, heading=none]
-
-\subsection*{Other Scholarly Outputs}
-\printbibliography[
-nottype={article,inproceedings,incollection},
-  notkeyword=student-project,
-  heading=none
-]
-
-\subsection*{Mentored Student Research Projects}
-\printbibliography[heading=none,keyword=student-project ]
-
-
+    
+    \section*{Graduate Student Committees}
+    \printbibliography[heading=none,resetnumbers=true,keyword=graduate-committee ]
+    
+    \section*{Books and Book Chapters}
+    \printbibliography[filter=booksandchapters,resetnumbers=true,notkeyword=student-project, heading=none ]
+    
+    \section*{Journal Articles}
+    \printbibliography[type=article, notkeyword=student-project, resetnumbers=true, heading=none]
+    
+    \section*{Conference Proceedings}
+    \printbibliography[type=inproceedings, notkeyword=student-project, resetnumbers=true, heading=none]
+    
+    \section*{Other Scholarly Outputs}
+    \printbibliography[
+      nottype={article,inproceedings,incollection,misc},
+      notkeyword=student-project,
+      resetnumbers=true,
+      heading=none
+    ]
+    
+    \section*{Mentored Student Research Projects}
+    \printbibliography[heading=none,resetnumbers=true,keyword=student-project ]
+    
+    %TODO add Spring 2026 VIP projects to List
+    
 
 \end{refsection}
 

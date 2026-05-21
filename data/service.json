@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Co-Editor, Education Department",
+    "unit": "Computing in Science & Engineering (CiSE)",
+    "institution": "IEEE",
+    "start_year": 2021,
+    "end_year": "present",
+    "role_type": "Editorial Service",
+    "service_scope": "external",
+    "notes": "Built editorial networks and reviewed and edited submissions for publication. Worked with co-editor to strategically plan the direction of the Education Department."
+  },
+  {
+    "title": "Chair",
+    "unit": "SIG HPC Education (SigHPCEdu) Virtual Chapter",
+    "institution": "ACM / IEEE",
+    "start_year": 2019,
+    "end_year": "present",
+    "role_type": "Professional Leadership",
+    "service_scope": "external",
+    "notes": "Coordinated and organized all aspects of the virtual chapter focused on education in computation."
+  },
+  {
+    "title": "Assistant Chair",
+    "unit": "SIG HPC Education (SigHPCEdu) Virtual Chapter",
+    "institution": "ACM / IEEE",
+    "start_year": 2017,
+    "end_year": 2019,
+    "role_type": "Professional Leadership",
+    "service_scope": "external",
+    "notes": "Supported leadership and organization of chapter activities related to computational education."
+  },
+  {
+    "title": "MSU Hub Fellow",
+    "unit": "Hub Fellowship Program",
+    "institution": "Michigan State University",
+    "start_year": 2018,
+    "end_year": 2019,
+    "role_type": "Professional Fellowship",
+    "service_scope": "internal",
+    "notes": "Worked with the Jupyter Core Development Team to improve accessibility of Jupyter Notebook and JupyterLab. Coordinated with MSU Central IT on development of a campus-wide JupyterHub."
+  },
+  {
+    "title": "STEM Gateway Fellow",
+    "unit": "STEM Gateway Program",
+    "institution": "Michigan State University",
+    "start_year": 2016,
+    "end_year": 2018,
+    "role_type": "Professional Fellowship",
+    "service_scope": "internal",
+    "notes": "Collaborated across the College of Natural Science to integrate introductory STEM curricula."
+  },
+  {
+    "title": "Engineering Futures Facilitator",
+    "unit": "Tau Beta Pi Engineering Honor Society",
+    "institution": "",
+    "start_year": 2006,
+    "end_year": "present",
+    "role_type": "Professional Outreach",
+    "service_scope": "external",
+    "notes": "Volunteer facilitator for national seminars on teamwork, communication, and leadership."
+  },
+  {
+    "title": "Campus Champion",
+    "unit": "XSEDE / TeraGrid / ACCESS",
+    "institution": "National Science Foundation",
+    "start_year": 2010,
+    "end_year": "present",
+    "role_type": "National Service",
+    "service_scope": "external",
+    "notes": "Served as Campus Champion supporting national cyberinfrastructure initiatives."
+  },
+  {
+    "title": "Co-Chair, CMSE Digital Accessibility Committee",
+    "unit": "CMSE Department",
+    "institution": "Michigan State University",
+    "start_year": 2026,
+    "end_year": "present",
+    "role_type": "Departmental Service",
+    "service_scope": "internal",
+    "notes": "Helped coordinate accessible online content for students and community."
+  },
+  {
+    "title": "Member, Academic Review Committee (ARC)",
+    "unit": "CMSE Department",
+    "institution": "Michigan State University",
+    "start_year": 2026,
+    "end_year": "present",
+    "role_type": "Departmental Service",
+    "service_scope": "internal",
+    "notes": "Contributed to program and faculty evaluation."
+  },
+  {
+    "title": "Faculty Advisor",
+    "unit": "AI Club",
+    "institution": "Michigan State University",
+    "start_year": 2024,
+    "end_year": "present",
+    "role_type": "Student Engagement",
+    "service_scope": "internal",
+    "notes": "Advises students on AI projects and professional development."
+  },
+  {
+    "title": "Faculty Advisor",
+    "unit": "Image Software Club",
+    "institution": "Michigan State University",
+    "start_year": 2024,
+    "end_year": "present",
+    "role_type": "Student Engagement",
+    "service_scope": "internal",
+    "notes": "Mentors students in image analysis and scientific software."
+  },
+  {
+    "title": "Member, Dean Search Committee",
+    "unit": "College of Natural Science",
+    "institution": "Michigan State University",
+    "start_year": 2026,
+    "end_year": 2026,
+    "role_type": "Institutional Service",
+    "service_scope": "internal",
+    "notes": "Participated in dean candidate evaluation and selection."
+  },
+  {
+    "title": "Member, CMSE Social Committee",
+    "unit": "CMSE Department",
+    "institution": "Michigan State University",
+    "start_year": 2025,
+    "end_year": "present",
+    "role_type": "Departmental Service",
+    "service_scope": "internal",
+    "notes": "Organized community-building events."
+  },
+  {
+    "title": "Representative",
+    "unit": "Coalition for Academic Scientific Computation (CASC)",
+    "institution": "Michigan State University",
+    "start_year": 2014,
+    "end_year": 2015,
+    "role_type": "External Service",
+    "service_scope": "external",
+    "notes": "Represented MSU in national scientific computing advocacy."
+  }
+]

@@ -7,7 +7,7 @@
     "date": "2024-01-13",
     "invited": true,
     "project": "HPCC Outreach",
-    "selected": false,
+    "selected": true,
     "notes": ""
   },
   {
@@ -18,19 +18,8 @@
     "date": "2025-01-31",
     "invited": true,
     "project": "Curriculum Development",
-    "selected": false,
+    "selected": true,
     "notes": ""
-  },
-  {
-    "title": "Third Annual Data Science Capstone Showcase",
-    "activity_type": "Hosted Event",
-    "venue": "Data Science Capstone Program",
-    "location": "Michigan State University",
-    "date": "2024-05-14",
-    "invited": false,
-    "project": "Data Science Capstone",
-    "selected": false,
-    "notes": "Hosted and organized capstone showcase event."
   },
   {
     "title": "Autobiography Talk with Focus on Generative AI",
@@ -40,7 +29,7 @@
     "date": "2024-05-22",
     "invited": true,
     "project": "Generative AI Outreach",
-    "selected": false,
+    "selected": true,
     "notes": ""
   },
   {
@@ -49,7 +38,7 @@
     "venue": "Graduate School",
     "location": "Michigan State University",
     "date": "2024-08-21",
-    "invited": false,
+    "invited": true,
     "project": "Graduate Mentoring",
     "selected": false,
     "notes": ""
@@ -62,7 +51,7 @@
     "date": "2024-08-22",
     "invited": true,
     "project": "ICER Outreach",
-    "selected": false,
+    "selected": true,
     "notes": ""
   },
   {
@@ -73,7 +62,7 @@
     "date": "2024-09-24",
     "invited": true,
     "project": "ICER Traveling Roadshow",
-    "selected": false,
+    "selected": true,
     "notes": ""
   },
   {
@@ -84,7 +73,7 @@
     "date": "2024-12-17",
     "invited": false,
     "project": "Professional Skills Training",
-    "selected": false,
+    "selected": true,
     "notes": ""
   },
   {
@@ -95,7 +84,7 @@
     "date": "2023-12-07",
     "invited": true,
     "project": "SEE-Insight",
-    "selected": false,
+    "selected": true,
     "notes": ""
   },
   {
@@ -106,7 +95,7 @@
     "date": "2023",
     "invited": false,
     "project": "CyberAmbassador",
-    "selected": false,
+    "selected": true,
     "notes": ""
   },
   {
@@ -117,7 +106,7 @@
     "date": "2023",
     "invited": false,
     "project": "BESFEM",
-    "selected": false,
+    "selected": true,
     "notes": "Poster co-presented with Hui-Chi."
   },
   {
@@ -128,7 +117,7 @@
     "date": "2023",
     "invited": false,
     "project": "Research Facilitation",
-    "selected": false,
+    "selected": true,
     "notes": "Helped organize, attended, and gave three presentations."
   },
   {
@@ -139,7 +128,7 @@
     "date": "2023-06-09",
     "invited": true,
     "project": "Data Science Capstone",
-    "selected": false,
+    "selected": true,
     "notes": ""
   },
   {
@@ -150,7 +139,7 @@
     "date": "2023-02-06",
     "invited": true,
     "project": "HPC and AI",
-    "selected": false,
+    "selected": true,
     "notes": ""
   },
   {
@@ -161,7 +150,7 @@
     "date": "2019-02-26",
     "invited": true,
     "project": "VR and CMSE",
-    "selected": false,
+    "selected": true,
     "notes": ""
   },
   {
@@ -172,7 +161,7 @@
     "date": "2019-03-25",
     "invited": true,
     "project": "Research Technology Support",
-    "selected": false,
+    "selected": true,
     "notes": ""
   },
   {
@@ -183,7 +172,473 @@
     "date": "2019-04-23",
     "invited": true,
     "project": "Image Analysis",
-    "selected": false,
+    "selected": true,
     "notes": ""
-  }
+  },
+
+
+
+
+
+  {
+  "title": "Introduction to the CyberAmbassador program",
+  "activity_type": "Invited Talk",
+  "venue": "Tau Beta Pi Convention",
+  "location": "Atlanta, GA",
+  "date": "2019-09",
+  "invited": true,
+  "project": "CyberAmbassador",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "Lightning Talk and Poster Presentation on CyberAmbassador and CCIFTD programs",
+  "activity_type": "Conference Presentation",
+  "venue": "NSF CyberTraining Meeting",
+  "location": "",
+  "date": "2019",
+  "invited": false,
+  "project": "CyberAmbassador",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "Poster Presentation on BESFEM program",
+  "activity_type": "Poster Presentation",
+  "venue": "NSF CSSI Meeting",
+  "location": "",
+  "date": "2019",
+  "invited": false,
+  "project": "BESFEM",
+  "selected": true,
+  "notes": "Poster with Hui-Chi"
+},
+{
+  "title": "Research Facilitator Virtual Residency Workshop participation and presentations",
+  "activity_type": "Workshop Organization and Presentation",
+  "venue": "Research Facilitator Virtual Residency Workshop",
+  "location": "",
+  "date": "2023",
+  "invited": false,
+  "project": "Research Facilitation",
+  "selected": true,
+  "notes": "Organized, attended, and gave multiple presentations"
+},
+{
+  "title": "Advanced Communication Skills Training for CI Professionals",
+  "activity_type": "Invited Talk",
+  "venue": "XSEDE Campus Champion Monthly Videoconference",
+  "location": "",
+  "date": "2018-09-18",
+  "invited": true,
+  "project": "CI Professional Development",
+  "selected": false,
+  "notes": ""
+},
+{
+  "title": "Birds of a Feather, Professional Skills Training in Cyber-Infrastructure",
+  "activity_type": "Workshop Coordination",
+  "venue": "PEARC Conference",
+  "location": "Pittsburgh, PA",
+  "date": "2018-07-25",
+  "invited": true,
+  "project": "CI Professional Development",
+  "selected": false,
+  "notes": ""
+},
+{
+  "title": "Do More, Faster: Utilizing Advanced Computing Hardware",
+  "activity_type": "Invited Talk",
+  "venue": "Inverse Problems Symposium (Banquet Speaker)",
+  "location": "East Lansing, MI",
+  "date": "2018-06",
+  "invited": true,
+  "project": "HPC Outreach",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "An Engineer’s Autobiography",
+  "activity_type": "Invited Talk",
+  "venue": "ENSURE Seminar",
+  "location": "Michigan State University",
+  "date": "2018-06-27",
+  "invited": true,
+  "project": "ENSURE",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "Pelican Github.io Tutorial",
+  "activity_type": "Workshop",
+  "venue": "Special Workshop",
+  "location": "East Lansing, MI",
+  "date": "2018-06-22",
+  "invited": false,
+  "project": "Technical Training",
+  "selected": false,
+  "notes": ""
+},
+{
+  "title": "Emerging Technologies (FPGAs)",
+  "activity_type": "Invited Talk",
+  "venue": "Virtual Residency Workshop",
+  "location": "Oklahoma City, OK",
+  "date": "2018-08-09",
+  "invited": true,
+  "project": "CI Training",
+  "selected": false,
+  "notes": ""
+},
+
+
+
+
+
+{
+  "title": "Deciding Which Technologies to Adopt, and When",
+  "activity_type": "Panel Participation",
+  "venue": "Virtual Residency Summer Workshop on How to Be a More Effective Research Computing Facilitator",
+  "location": "Oklahoma City, OK",
+  "date": "2018-08-09",
+  "invited": true,
+  "project": "CI Training",
+  "selected": false,
+  "notes": ""
+},
+{
+  "title": "Teams of CI Professionals: Recruitment & Retention, Management, Team-building, and Motivation Panel",
+  "activity_type": "Panel Participation",
+  "venue": "Virtual Residency Summer Workshop on How to Be a More Effective Research Computing Facilitator",
+  "location": "Oklahoma City, OK",
+  "date": "2018-08-07",
+  "invited": true,
+  "project": "CI Training",
+  "selected": false,
+  "notes": ""
+},
+{
+  "title": "Leading and Listening in Complex CI Conversations",
+  "activity_type": "Invited Talk",
+  "venue": "Virtual Residency Summer Workshop on How to Be a More Effective Research Computing Facilitator",
+  "location": "Oklahoma City, OK",
+  "date": "2018-08-06",
+  "invited": true,
+  "project": "CI Training",
+  "selected": false,
+  "notes": ""
+},
+{
+  "title": "Interface between academia and industry",
+  "activity_type": "Panel Participation",
+  "venue": "Beacon Conference",
+  "location": "Michigan State University, East Lansing, MI",
+  "date": "2016-08-09",
+  "invited": true,
+  "project": "Professional Development",
+  "selected": false,
+  "notes": ""
+},
+{
+  "title": "Autobiography of an Engineer",
+  "activity_type": "Invited Talk",
+  "venue": "Engineering Summer Undergraduate Research Experience (ENSURE)",
+  "location": "Michigan State University, East Lansing, MI",
+  "date": "2015-06-17",
+  "invited": true,
+  "project": "ENSURE",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "Teaching Integrated Studies Concepts Using Programming and Jupyter Notebooks",
+  "activity_type": "Invited Talk",
+  "venue": "Teaching and Learning Spring Conference",
+  "location": "East Lansing, MI",
+  "date": "2018-05-10",
+  "invited": true,
+  "project": "Teaching and Learning",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "Master Your Tasks: popular approaches to productivity, ranging from paper-and-pencil to the latest mobile apps",
+  "activity_type": "Invited Talk",
+  "venue": "Wednesday Night Alive Seminar, Okemos Community Church",
+  "location": "Okemos, MI",
+  "date": "2015-04-22",
+  "invited": true,
+  "project": "Professional Development",
+  "selected": false,
+  "notes": ""
+},
+{
+  "title": "Science and Supercomputing",
+  "activity_type": "Invited Talk",
+  "venue": "Seminar Series, College of Mathematics and Science, University of Central Oklahoma",
+  "location": "Oklahoma City, OK",
+  "date": "2014-04-03",
+  "invited": true,
+  "project": "HPC Outreach",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "Cloud Computing for Research",
+  "activity_type": "Invited Talk",
+  "venue": "Special Presentation to MSU Researchers",
+  "location": "Michigan State University",
+  "date": "2014-01-22",
+  "invited": true,
+  "project": "HPC Outreach",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "Plenary Presentation, XSEDE Fellows Program",
+  "activity_type": "Invited Talk",
+  "venue": "XSEDE 13",
+  "location": "San Diego, CA",
+  "date": "2013-07-25",
+  "invited": true,
+  "project": "XSEDE",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "XSEDE: Accessing and Using Advanced Computational Hardware to Make Your Research Go Faster",
+  "activity_type": "Invited Talk",
+  "venue": "Webcast to BEACON affiliated Universities",
+  "location": "",
+  "date": "2013-01-11",
+  "invited": true,
+  "project": "HPC Outreach",
+  "selected": true,
+  "notes": ""
+},
+
+
+
+
+
+
+{
+  "title": "Do More, Faster: Utilizing Advanced Computational Hardware",
+  "activity_type": "Invited Talk",
+  "venue": "Multiple venues (Traveling Talk)",
+  "location": "Various",
+  "date": "2010-2014",
+  "invited": true,
+  "project": "HPC Outreach",
+  "selected": true,
+  "notes": "Delivered at multiple venues including: PHY480-PHY832 Computational Physics (April 1, 2014); MSU fMRI Users Seminar Series (March 12, 2014); LB 490A Methods of Computational Science (March 11, 2014); Quantitative Fisheries Research Seminar (February 27, 2014); CHE/MSE 802 Research Methods class (November 29, 2013); MSU Engineering Graduate Student Professional Development Seminar (January 23, 2013); Electrical and Computer Engineering faculty seminar (September 6, 2012); Bioinformatics seminar (June 2012); Visiting Iraqi Fulbright Faculty (August 18, 2011); MSU Summer Engineering Undergraduate Research Experience Seminar (June 15, 2011); Central Michigan University Engineering Research Colloquium (February 28, 2011); BEACON Congress (August 11, 2010); Hope College Student Colloquium (April 14, 2010)"
+},
+{
+  "title": "From Images to Data: Scaling and Streamlining Research Workflows",
+  "activity_type": "Invited Talk",
+  "venue": "Cyber-Infrastructure Days",
+  "location": "Michigan State University",
+  "date": "2012-10-26",
+  "invited": true,
+  "project": "Image Analysis",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "Making the Most of your Undergraduate Research Experience",
+  "activity_type": "Panel Participation",
+  "venue": "",
+  "location": "",
+  "date": "2012-10-10",
+  "invited": true,
+  "project": "Undergraduate Research",
+  "selected": false,
+  "notes": ""
+},
+{
+  "title": "Getting into Graduate School",
+  "activity_type": "Panel Participation",
+  "venue": "Tau Beta Pi Convention",
+  "location": "",
+  "date": "2012-09-27",
+  "invited": true,
+  "project": "Professional Development",
+  "selected": false,
+  "notes": ""
+},
+{
+  "title": "Image Phenomics: The Development of an Image Grammar for High-Throughput Phenotyping Using Biological Images",
+  "activity_type": "Invited Talk",
+  "venue": "BEACON Seminar",
+  "location": "Michigan State University",
+  "date": "2012-09-21",
+  "invited": true,
+  "project": "Image Analysis",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "What can I do with this Gadget: iPods, iPads, iPhones",
+  "activity_type": "Invited Talk",
+  "venue": "Women’s Resource Center",
+  "location": "Michigan State University",
+  "date": "2012",
+  "invited": true,
+  "project": "Technology Outreach",
+  "selected": false,
+  "notes": "Spring 2012"
+},
+{
+  "title": "Tech Gadget Avalanche: Navigating the Ever-changing World of Portable Devices",
+  "activity_type": "Short Course",
+  "venue": "MSU Evening College, Alumni Lifelong Education",
+  "location": "Michigan State University",
+  "date": "2012",
+  "invited": true,
+  "project": "Technology Outreach",
+  "selected": false,
+  "notes": "Spring 2012 and Fall 2012"
+},
+{
+  "title": "Supercomputers: Cutting Edge, Powerful, Awesome!",
+  "activity_type": "Short Course",
+  "venue": "MSU Evening College, Alumni Lifelong Education",
+  "location": "Michigan State University",
+  "date": "2011",
+  "invited": true,
+  "project": "HPC Outreach",
+  "selected": false,
+  "notes": "Fall 2011"
+},
+{
+  "title": "HPCC Mid-Morning Breaks",
+  "activity_type": "Seminar Series",
+  "venue": "iCER Seminar Series on Computational Science",
+  "location": "Michigan State University",
+  "date": "2009-2011",
+  "invited": false,
+  "project": "HPC Outreach",
+  "selected": false,
+  "notes": "Weekly seminar series"
+},
+{
+  "title": "Introduction to iCER and the HPCC",
+  "activity_type": "Invited Talk",
+  "venue": "New Faculty Orientation",
+  "location": "Michigan State University",
+  "date": "2011-2013",
+  "invited": true,
+  "project": "ICER Outreach",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "3D Face Recognition: Towards a Large Database",
+  "activity_type": "Invited Talk",
+  "venue": "Hope College Student Colloquium",
+  "location": "",
+  "date": "2009-04-02",
+  "invited": true,
+  "project": "Computer Vision",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "Biometrics: Measuring and Analyzing Human Body Characteristics for Recognition",
+  "activity_type": "Invited Talk",
+  "venue": "CPI 101: Introduction to Informatics",
+  "location": "Arizona State University",
+  "date": "2007-11-15",
+  "invited": true,
+  "project": "Computer Vision",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "Person Identification by 3D Surface Alignment: The 3DID Face Verification System",
+  "activity_type": "Invited Demo",
+  "venue": "CVPR Conference on Computer Vision and Pattern Recognition",
+  "location": "",
+  "date": "2009",
+  "invited": true,
+  "project": "Computer Vision",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "Person Verification by 3D Surface Alignment",
+  "activity_type": "Invited Talk",
+  "venue": "University of Notre Dame Computer Science and Engineering Seminar",
+  "location": "",
+  "date": "2007-02-27",
+  "invited": true,
+  "project": "Computer Vision",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "Live Demonstration of the 3DID System",
+  "activity_type": "Invited Talk",
+  "venue": "Wright State University Computer Science Seminar",
+  "location": "",
+  "date": "2007-02-02",
+  "invited": true,
+  "project": "Computer Vision",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "Self Evaluation Using Myers-Briggs Temperament",
+  "activity_type": "Invited Talk",
+  "venue": "CSE 291 and 491",
+  "location": "Michigan State University",
+  "date": "2006-10-20",
+  "invited": true,
+  "project": "Professional Development",
+  "selected": false,
+  "notes": ""
+},
+{
+  "title": "Face Recognition Advanced Study Workshop",
+  "activity_type": "Invited Participant",
+  "venue": "",
+  "location": "",
+  "date": "2005-11-11",
+  "invited": true,
+  "project": "Computer Vision",
+  "selected": false,
+  "notes": "November 11-13, 2005"
+},
+{
+  "title": "Analysis of 3D Face Alignment",
+  "activity_type": "Invited Talk",
+  "venue": "Hope College Student Colloquium",
+  "location": "",
+  "date": "2005-10-13",
+  "invited": true,
+  "project": "Computer Vision",
+  "selected": true,
+  "notes": ""
+},
+{
+  "title": "Pattern Recognition for Classification and Matching of Car Tires",
+  "activity_type": "Invited Talk",
+  "venue": "Tire Society Conference",
+  "location": "",
+  "date": "2003",
+  "invited": true,
+  "project": "Computer Vision",
+  "selected": true,
+  "notes": ""
+}
+
+
+
+
+
+
+
+
+
+  
 ]

@@ -4,14 +4,15 @@
     "title": "Experiential Learning in Data Science",
     "institution": "Michigan State University",
     "level": "Undergraduate",
-    "role": "Instructor",
+    "role": "Creator / Instructor / Co-Instructor",
     "terms": [
       "Spring 2022",
       "Spring 2023",
       "Spring 2024",
       "Spring 2025",
       "Spring 2026",
-      "Fall 2025"
+      "Fall 2025",
+      "Fall 2026"
     ],
     "notes": "Hybrid capstone-style course with industry, non-profit, and institutional project sponsors; includes professional skills training in teamwork, leadership, and communication."
   },
@@ -20,16 +21,16 @@
     "title": "Special Topics in Vertically Integrated Projects",
     "institution": "Michigan State University",
     "level": "Undergraduate",
-    "role": "Instructor / Co-Creator",
+    "role": "Instructor / Creator",
     "terms": ["Spring 2026"],
     "notes": "Course created to allow students to earn credit while doing academic work; model planned for expansion campus-wide."
   },
   {
-    "course_code": "MTH/CMSE 314",
+    "course_code": "MTH 314 CMSE 314",
     "title": "Matrix Algebra with Numerical Applications",
     "institution": "Michigan State University",
     "level": "Undergraduate",
-    "role": "Course Coordinator / Instructor",
+    "role": "Course Coordinator / Instructor / Creator",
     "terms": [
       "Fall 2017",
       "Fall 2018",
@@ -44,7 +45,7 @@
     "title": "Methods for Parallel Programming",
     "institution": "Michigan State University",
     "level": "Undergraduate",
-    "role": "Instructor",
+    "role": "Instructor / Creator",
     "terms": ["Spring 2019", "Spring 2021"],
     "notes": "Course focused on shared-memory, accelerator, and distributed parallel programming; extensive use of HPC systems."
   },
@@ -53,8 +54,8 @@
     "title": "Methods in Computational Modeling",
     "institution": "Michigan State University",
     "level": "Graduate",
-    "role": "Instructor",
-    "terms": ["Fall 2019", "Spring 2020", "Fall 2020"],
+    "role": "Instructor / Creator",
+    "terms": ["Fall 2019", "Spring 2020", "Fall 2020", "Fall 2026"],
     "notes": "Redesigned course to emphasize project-based work tied to students’ own graduate research; focus on robust scientific software practices."
   },
   {
@@ -62,7 +63,7 @@
     "title": "Computational Modeling Using the MFEM Library",
     "institution": "Michigan State University",
     "level": "Graduate",
-    "role": "Co-Creator / Instructor",
+    "role": "Co-Creator / Co-Instructor",
     "terms": ["Fall 2025"],
     "notes": "Graduate special topics course using the MFEM library; students define learning goals collaboratively with instructors."
   },
@@ -71,7 +72,7 @@
     "title": "Generative AI",
     "institution": "Michigan State University",
     "level": "Graduate",
-    "role": "Instructor",
+    "role": "Co-Instructor / Co-Creator",
     "terms": ["Fall 2023"],
     "notes": "Special topics course focused on generative AI methods and applications."
   },
@@ -80,7 +81,7 @@
     "title": "Communications, Teamwork, Ethics, and Leadership for Multidisciplinary Research Teams",
     "institution": "Michigan State University",
     "level": "Graduate",
-    "role": "Co-Creator / Instructor",
+    "role": "Co-Creator / Co-Instructor",
     "terms": [
       "Spring 2019",
       "Spring 2020",
@@ -106,7 +107,7 @@
     "title": "Designing and Building Applications for Extreme Scale Systems",
     "institution": "Michigan State University",
     "level": "Graduate",
-    "role": "Instructor",
+    "role": "Co-Instructor",
     "terms": ["Spring 2016"],
     "notes": "Multi-university course led by University of Illinois; taught using a flipped-classroom model."
   },
@@ -115,7 +116,7 @@
     "title": "Study of Scientific Measurement Using Digital Images and Video",
     "institution": "Michigan State University",
     "level": "Undergraduate",
-    "role": "Instructor",
+    "role": "Instructor / Creator",
     "terms": ["Fall 2012", "Spring 2013"],
     "notes": "Engineering Honors research seminar focused on image and video analysis in cross-disciplinary science."
   },
@@ -142,7 +143,7 @@
     "title": "Programming and Mathematical Concepts in MATLAB for Research Scientists",
     "institution": "Michigan State University",
     "level": "Graduate",
-    "role": "Instructor",
+    "role": "Instructor / Creator",
     "terms": ["Fall 2006"],
     "notes": "Course for graduate students in statistics, psychology, zoology, telecommunications, and computer science."
   },

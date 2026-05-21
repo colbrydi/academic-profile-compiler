@@ -1,5 +1,5 @@
 -- lua/json_render_committees.lua
--- Renderer for graduate thesis and dissertation committees
+-- Compact publication-style rendering
 
 local function latex_escape(x)
   local str = tostring(x or "")
@@ -42,39 +42,44 @@ function render_graduate_committees(jsonfile)
 
   table.sort(items, newer_first)
 
-  tex.print("\\begin{itemize}")
+  tex.print("\\begin{enumerate}")
 
   for _, c in ipairs(items) do
-    local line = "\\textbf{" .. latex_escape(c.student) .. "}"
 
-    if c.program and c.program ~= "" then
-      line = line .. " (" .. latex_escape(c.program) .. ")"
-    end
+    local parts = {}
 
-    if c.department and c.department ~= "" then
-      line = line .. ", " .. latex_escape(c.department)
-    end
+    -- Student
+    table.insert(parts, latex_escape(c.student))
 
-    if c.term or c.year then
-      local when = {}
-      if c.term and c.term ~= "" then
-        table.insert(when, latex_escape(c.term))
-      end
-      if c.year and c.year ~= "" then
-        table.insert(when, latex_escape(c.year))
-      end
-      if #when > 0 then
-        line = line .. " — " .. table.concat(when, " ")
-      end
-    end
-
-    tex.print("\\item " .. line)
+    -- Title (publication-like)
 
     if c.title and c.title ~= "" then
-      tex.print("\\newline \\emph{" .. latex_escape(c.title) .. "}")
+      table.insert(parts,
+        "\\textbf{\\emph{``" .. latex_escape(c.title) .. "''}}")
     end
+
+
+    -- Department or institution
+    if c.department and c.department ~= "" then
+      table.insert(parts, latex_escape(c.department))
+    end
+
+    -- Date
+    local when = {}
+    if c.term and c.term ~= "" then
+      table.insert(when, latex_escape(c.term))
+    end
+    if c.year and c.year ~= "" then
+      table.insert(when, latex_escape(c.year))
+    end
+
+    if #when > 0 then
+      table.insert(parts, table.concat(when, " "))
+    end
+
+    tex.print("\\item " .. table.concat(parts, ", ") .. ".")
   end
 
-  tex.print("\\end{itemize}")
+  tex.print("\\end{enumerate}")
   tex.print("\\endgroup")
 end

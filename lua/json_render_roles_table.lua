@@ -1,8 +1,11 @@
 -- lua/json_render_roles_table.lua
--- Table-based CV renderer for roles.json
--- FIXED: Do not LaTeX-escape formatted year strings
+-- Table-based CV renderer for roles and service
+-- Adds filtering support for service_scope
 
--- Escape LaTeX special characters in raw user content
+--------------------------------------------------
+-- Escape LaTeX special characters
+--------------------------------------------------
+
 local function latex_escape(str)
   if not str then return "" end
   str = str:gsub("\\", "\\textbackslash{}")
@@ -18,13 +21,19 @@ local function latex_escape(str)
   return str
 end
 
+--------------------------------------------------
 -- Convert year to sortable number
+--------------------------------------------------
+
 local function year_to_number(y)
   if y == "present" then return 9999 end
   return tonumber(y) or 0
 end
 
--- Format year range (produces LaTeX on purpose)
+--------------------------------------------------
+-- Format year range (LaTeX-aware)
+--------------------------------------------------
+
 local function format_years(start_year, end_year)
   if not start_year then return "" end
   if end_year == "present" then
@@ -36,23 +45,27 @@ local function format_years(start_year, end_year)
   end
 end
 
-function render_roles_table(jsonfile)
+--------------------------------------------------
+-- Load JSON
+--------------------------------------------------
+
+local function load_json(jsonfile)
   local f = io.open(jsonfile, "r")
-  if not f then
-    tex.print("Could not open " .. jsonfile)
-    return
-  end
+  if not f then return nil end
 
   local content = f:read("*all")
   f:close()
 
-  local roles = utilities.json.tolua(content)
-  if not roles then
-    tex.print("JSON parse failed for " .. jsonfile)
-    return
-  end
+  return utilities.json.tolua(content)
+end
 
-  -- Sort most recent first
+--------------------------------------------------
+-- Core rendering logic (used by both modes)
+--------------------------------------------------
+
+local function render_roles_internal(roles)
+
+  -- Sort newest first
   table.sort(roles, function(a, b)
     local a_end = year_to_number(a.end_year)
     local b_end = year_to_number(b.end_year)
@@ -65,6 +78,7 @@ function render_roles_table(jsonfile)
   tex.print("\\begin{longtable}{@{}p{0.13\\textwidth} p{0.80\\textwidth}@{}}")
 
   for _, r in ipairs(roles) do
+
     local years = format_years(r.start_year, r.end_year)
 
     local details = {}
@@ -92,4 +106,52 @@ function render_roles_table(jsonfile)
   end
 
   tex.print("\\end{longtable}")
+end
+
+--------------------------------------------------
+-- ORIGINAL (unchanged behavior)
+--------------------------------------------------
+
+function render_roles_table(jsonfile)
+  local roles = load_json(jsonfile)
+
+  if not roles then
+    tex.print("JSON parse failed for " .. jsonfile)
+    return
+  end
+
+  render_roles_internal(roles)
+end
+
+--------------------------------------------------
+-- NEW: FILTERED VERSION (for service)
+--------------------------------------------------
+
+function render_roles_table_filtered(jsonfile, scope_filter)
+
+  local roles = load_json(jsonfile)
+
+  if not roles then
+    tex.print("JSON parse failed for " .. jsonfile)
+    return
+  end
+
+  local filtered = {}
+  local scope = string.lower(scope_filter)
+
+  for _, r in ipairs(roles) do
+    if r.service_scope then
+      local s = string.lower(tostring(r.service_scope))
+      if s == scope then
+        table.insert(filtered, r)
+      end
+    end
+  end
+
+  if #filtered == 0 then
+    tex.print("\\textit{No entries in this category.}")
+    return
+  end
+
+  render_roles_internal(filtered)
 end
